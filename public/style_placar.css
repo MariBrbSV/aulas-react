@@ -1,0 +1,36 @@
+.card-placar {
+    background: linear-gradient(90deg, rgba(43,41,180,1) 0%, rgba(7,0,79,1) 100%);
+    font-family: "Raleway";
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+}
+
+.timeum {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.timedois {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.placar-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.placar-x {
+    margin: 50px;
+}
+
+.bta {
+    margin-left: 10px;
+}
+
+.fonte {
+    font-family: "Great Vibes";
+    margin-top: 30px;
+}
