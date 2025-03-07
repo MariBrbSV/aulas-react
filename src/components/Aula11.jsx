@@ -16,6 +16,10 @@ const Aula11 = () => {
         }
     }
 
+    useEffect(() => {
+        buscarDados()
+    }, [])
+
     return (
         <div className="card">
             <h1> Aula 11 - Consumo de APIs </h1>
