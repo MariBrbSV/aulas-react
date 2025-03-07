@@ -11,6 +11,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "leaflet": "^1.9.4",
+    "ol": "^10.4.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

@@ -154,15 +154,7 @@ btn-primary {
     text-align: center;
 }
 
-.card-produtos {
-    width: 100%;
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    position: relative !important;
-    overflow: hidden !important;
-    box-sizing: border-box !important;
-}
+
 
 .card-produtos2 {
     min-width: 200px;
@@ -191,5 +183,63 @@ btn-primary {
 .card-cor {
     background-color: #0d6efd;
 }
+
+.card-produtos {
+    width: 100%;
+    height: 400px; /* Define uma altura fixa */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow-y: auto; /* Habilita a rolagem vertical */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Adiciona um estilo à barra de rolagem (opcional) */
+.card-produtos::-webkit-scrollbar {
+    width: 8px;
+}
+
+.card-produtos::-webkit-scrollbar-thumb {
+    background: linear-gradient(0deg, rgba(29,71,253,1) 0%, rgba(8,0,105,1) 100%);
+    border-radius: 4px;
+}
+
+/* Cachorros */
+.botao-imgch {
+    width: 500px !important;
+    margin-top: 20px;
+}
+
+.img-cachorro{
+    max-width: 500px !important;
+    max-height: 500px !important;
+    object-fit: cover !important;
+    border-radius: 20px;
+}
+
+/* CEP */
+.input-cep {
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+}
+
+.botao-cep {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
 
 
