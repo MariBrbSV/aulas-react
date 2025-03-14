@@ -236,6 +236,25 @@ btn-primary {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+}
+
+.btn-arrumar {
+    width: 200px !important;
+}
+
+.sobre {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 50px;
+}
+
+.n-encontrada {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 50px;
 }
 
 
